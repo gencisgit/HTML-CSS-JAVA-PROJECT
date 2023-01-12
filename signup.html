@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <h1 id="logo"><i>Gazeta</i></h1>
+        <div class="nav-list">
+            <ul class="nav-list-item">
+                <li class="li-1">
+                    <a href="login.html" class="linku"><b>login</b></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="log-sig">
+        <form class="form" onsubmit="signup()">
+            <br>
+
+            <label class="label2" for="text">username</label><br>
+            <input class="i-name2" type="text" name="username" id="username"><br><br>
+
+            <label class="label2" for="email">email</label><br>
+            <input type="email" name="email" id="email" class="i-name2"><br><br>
+
+            <label class="label2" for="password">password</label><br>
+            <input type="password" name="password" id="password" class="i-name2">
+            <br><br><br>
+
+            <input type="radio" name="gender" value="male" class="rb-1"> <label for="radio" class="rl-1">Male</label>
+            <br><br>
+            <input type="radio" name="gender" value="female" class="rb-1">
+            <label for="radio" class="rl-1">Female</label>
+
+            <button type="submit" class="button">Signup</button><br><br>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

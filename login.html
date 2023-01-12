@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+        }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <h1 id="logo"><i>Gazeta</i></h1>
+        <div class="nav-list">
+            <ul class="nav-list-item">
+                <li class="li-1">
+                    <a href="signup.html" class="linku"><b>Signup</b></a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="log-sig">
+        <form class="form" onsubmit="loginFunc()">
+            <br>
+
+            <img src="avatar.png" alt="" style="width: 220px; border-radius: 50%;"><br>
+
+            <label class="label2" for="text">username</label><br>
+            <input type="text" name="username" id="username" class="i-name2"><br><br>
+
+            <label class="label2" for="password">password</label><br>
+            <input type="password" name="password" id="password" class="i-name2">
+            <br><br><br>
+
+            <button type="submit" class="button">Login</button><br>
+            <p style="color: #fff;" id="result">Welcome</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

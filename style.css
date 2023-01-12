@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.li-1 {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 300px;
+}
+
+.linku {
+    text-decoration: none;
+    color: white;
+}
+
+.linku2 {
+    text-decoration: none;
+    color: black;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#logo {
+    margin-right: 900px;
+}
+
+.nav-list {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 40%;
+}
+
+.nav-list-item {
+    display: flex;
+}
+
+.artikulli {
+    display: inline-block;
+    height: 410px;
+    margin-top: 10px;
+    width: 355px;
+    margin-left: 90px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+.foto {
+    object-fit: cover;
+    width: 335px;
+    height: 335px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    margin: 5px;
+}
+
+#foto:hover {
+    cursor: pointer;
+}
+
+.a-1 {
+    display: flex;
+}
+
+.af-1 {
+    width: 450px;
+}
+
+.af-2 {
+    width: 450px;
+    position: absolute;
+    left: 290px;
+    bottom: 40px;
+}
+
+.af-3 {
+    width: 450px;
+    height: 300px;
+    right: 0px;
+    position: absolute;
+    bottom: 40px;
+}
+
+.af-4 {
+    width: 450px;
+    height: 300px;
+    right: 550px;
+    position: absolute;
+    bottom: 40px;
+}
+
+
+
+/* artikulli1.html */
+
+.border {
+
+    width: 100%;
+    height: 90vh;
+}
+
+.border img {
+    float: left;
+    margin: 10px;
+}
+
+.border h1 {
+
+    font-size: 42px;
+    display: inline;
+    position: relative;
+    top: 18px;
+    left: 30px;
+}
+
+.border p {
+
+    display: flex;
+    position: relative;
+    top: 20px;
+    font-size: 22px;
+    margin-left: 300px;
+}
+
+.table-1 {
+    position: absolute;
+    top: 330px;
+    width: 350px;
+    height: 500px;
+    left: 0px;
+}
+
+.table-1 h1 {
+    position: relative;
+    display: flex;
+    top: 0px;
+    left: 40px;
+}
+
+.tb-1 {
+    line-height: 50px;
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    height: 400px;
+    font-size: 22px;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* artikulli2 */
+
+.u-1 {
+    text-align: center;
+    width: 70%;
+    float: right;
+}
+
+.u-1 p {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.u-1 h1 {
+    padding-top: 10px;
+}
+
+.u-t-1 {
+    /* border-collapse: collapse; */
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+    width: 400px;
+    height: 600px;
+}
+
+/* programming.html */
+
+.p-1 {
+    line-height: 40px;
+    text-align: center;
+    float: right;
+    width: 80%;
+}
+
+.p-1 h1 {
+    margin-bottom: 20px;
+}
+
+.p-1 p {
+    font-size: 23px;
+}
+
+.ul ul {
+    margin-top: 50px;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-type {
+    list-style: square;
+}
+
+/* login signup */
+
+.log-sig {
+    position: absolute;
+    left: 700px;
+    top: 150px;
+    border-radius: 25px;
+    width: 500px;
+    height: 550px;
+    background: linear-gradient(45deg, #088178, #041e42);
+}
+
+.log-sig img {
+    object-fit: cover;
+}
+
+.form {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    position: relative;
+}
+
+.label2 {
+    color: #fff;
+    border-radius: 15px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.i-name2 {
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    outline: none;
+    text-align: center;
+    height: 40px;
+    width: 80%;
+    font-size: 20px;
+}
+
+.button {
+    position: absolute;
+    right: 185px;
+    bottom: 10;
+    border-radius: 4px;
+    background-color: #088178;
+    color: #fff;
+    font-size: 20px;
+    width: 140px;
+    height: 40px;
+    border: none;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.rb-1 {
+    vertical-align: middle;
+    position: relative;
+    bottom: 50px;
+}
+
+.rl-1 {
+    position: relative;
+    bottom: 45px;
+    color: #fff;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+/* per ne :D */
+
+.follow {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 350px;
+}
